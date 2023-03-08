@@ -14,7 +14,7 @@ int main () {
   while (max_atempts == 0) {
     cout<<"Choose the desired difficulty level..." << endl;
     cout<<"Easy [E] - Medium [M] - Hard [H]" << endl;
-  cout << endl;
+    cout << endl;
 
     char difficulty;
     cin >> difficulty;
