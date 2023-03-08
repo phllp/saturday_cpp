@@ -1,0 +1,1 @@
+void store_new_word();

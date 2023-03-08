@@ -1,0 +1,1 @@
+void render_word(char user_guess);

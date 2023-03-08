@@ -1,0 +1,1 @@
+bool check_letter_exists(char user_guess);
