@@ -68,18 +68,3 @@ int main()
 
     return 0;
 }
-/*
-for(int i = 0; i < 40; i++)
-     {
-         for(int j = 0; j < 39 - i; j++)
-             {
-                 if(userInput[j] > userInput[j + 1])
-                 {
-                     int temp;
-                     temp=userInput[j];
-                     userInput[j]=userInput[j + 1];
-                     userInput[j + 1]=temp;
-                 }
-             }
-     }
-*/
