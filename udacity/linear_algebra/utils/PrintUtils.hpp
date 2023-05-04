@@ -7,6 +7,7 @@ class PrintUtils {
     public:
         PrintUtils(int inRowsM1, int inRowsM2, int inColsM1, int inColsM2);
         void printHeader();
+        void printMatrix(int** matrix, int rowsM1, int colsM2);
 };
 
 PrintUtils::PrintUtils(int inRowsM1, int inRowsM2, int inColsM1, int inColsM2) {
@@ -30,4 +31,14 @@ void PrintUtils::printHeader() {
     std::cout << "\tRows: " << rowsM2 <<" \n";
     std::cout << "\tCols: " << colsM2 <<" \n";
     std::cout << std::endl;
+}
+
+
+void PrintUtils::printMatrix(int** matrix, int rowsM1, int colsM2) {
+    for (int i = 0; i < rowsM1; i++) {
+        for (int j = 0; j < colsM2; j++) {
+            std::cout << matrix[i][j] << " "; 
+        }
+        std::cout << std::endl;
+    }
 }

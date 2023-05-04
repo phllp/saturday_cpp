@@ -136,6 +136,8 @@ int main() {
         std::cout << std::endl;
     }
 
+    printer.printMatrix(output, M1_ROWS, M2_COLS);
+
     end_time = clock();
 
     time_used = (end_time - start_time) / CLOCKS_PER_SEC;
